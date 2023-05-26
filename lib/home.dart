@@ -20,11 +20,10 @@ class _HomeState extends State<Home> {
   final String realToken;
 
   _HomeState(this.username, this.realToken);
-
   List _get = [];
   // token berasal dari realToken yang sudah di encode melalui framework web service
   String token =
-      "abfc2e0db113ef82afc493736c03ee9a21b2f297a574ad426a1f49a78ed6e628538883045c90d71099e2667c666add2872fe138e42100e21421c6b4567fcf023";
+      "166d8e8a88476f82afc493736c03ee9a21b2f297a574a3c937b5066e42a93f25538883045c90d71099e2667c666add28a8c58ca64fb79ad807c084fad6665f8d";
 
   @override
   void initState() {

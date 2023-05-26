@@ -95,8 +95,9 @@ class _LoginState extends State<Login> {
       var responseSystem = data['applicationSystem'];
       if (response.statusCode == 200) {
         if (responseSystem['code'] == 0){
-          token = responseSystem['token'];
-          setState(() {});
+          setState(() {
+            token = responseSystem['token'];
+          });
           ScaffoldMessenger.of(context).showSnackBar(SnackBar(
             content: Text("Login Berhasil"),
           ));

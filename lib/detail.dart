@@ -41,6 +41,10 @@ class Detail extends StatelessWidget {
                   SizedBox(
                     height: 10,
                   ),
+                  Text('$author'),
+                  SizedBox(
+                    height: 5,
+                  ),
                   Text(
                     '$publishedAt',
                     style: TextStyle(fontStyle: FontStyle.italic),
@@ -50,7 +54,6 @@ class Detail extends StatelessWidget {
                   ),
                   content != null ? Html(data: content) : Text(''),
                   Divider(),
-                  Text('$author'),
                 ],
               ),
             )
